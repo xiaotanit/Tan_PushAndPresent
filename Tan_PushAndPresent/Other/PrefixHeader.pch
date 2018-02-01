@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  Tan_PushAndPresent
+//
+//  Created by M C on 2018/1/30.
+//  Copyright © 2018年 604WorkingRoom. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//rgb颜色设置
+#define ColorRGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+#define ColorRGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+
+//常用颜色
+#define COLOR_BLUE ColorRGB(106,145,227)  //深蓝色，对应：#6a91e3
+#define COLOR_LIVIDITY ColorRGB(97,105,128) //铅色，对应：#616980
+
+
+//IOS设备
+#define iOS_VERSION_INFO    [[[UIDevice currentDevice] systemVersion] floatValue]
+#define iOS_8_UNDER     (iOS_VERSION_INFO < 8.0)
+#define iOS_8_ABOVE     (iOS_VERSION_INFO >= 8.0)
+#define iOS_7_ABOVE     (iOS_VERSION_INFO >= 7.0)
+#define iOS_11_ABOVE    (iOS_VERSION_INFO >= 11.0)
+
+//屏幕的宽高
+#define SCREEN_WIDTH        [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT       [UIScreen mainScreen].bounds.size.height
+#define SCREEN_RATIO        (SCREEN_WIDTH/320.0)
+#define isiPhoneX           [[UIApplication sharedApplication] statusBarFrame].size.height>20
+#define kStatusBar_Height       ([[UIApplication sharedApplication] statusBarFrame].size.height)
+#define kHomeFoot_Height        (isiPhoneX? 34:0)
+#define kTabBar_Height          (isiPhoneX? 83:49)
+#define kTopNavHeight           (isiPhoneX? 88:64)
+
+#endif /* PrefixHeader_pch */

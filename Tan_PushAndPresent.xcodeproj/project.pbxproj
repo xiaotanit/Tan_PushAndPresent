@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D3CBA7E202022A20030420D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3CBA7D202022A20030420D /* Assets.xcassets */; };
+		8D3CBA9A20206D670030420D /* TanTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CBA9920206D670030420D /* TanTabBarVC.m */; };
+		8D3CBA9D20206DA80030420D /* TanBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CBA9C20206DA80030420D /* TanBaseVC.m */; };
+		8D3CBAA8202070640030420D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CBAA0202070640030420D /* AppDelegate.m */; };
+		8D3CBAA9202070640030420D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3CBAA1202070640030420D /* LaunchScreen.storyboard */; };
+		8D3CBAAA202070640030420D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3CBAA3202070640030420D /* Main.storyboard */; };
+		8D3CBAAB202070640030420D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D3CBAA5202070640030420D /* Info.plist */; };
+		8D3CBAAC202070640030420D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CBAA6202070640030420D /* main.m */; };
+		8D3CBAB420207B000030420D /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CBAB320207B000030420D /* HomeVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D3CBA71202022A20030420D /* Tan_PushAndPresent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tan_PushAndPresent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3CBA7D202022A20030420D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D3CBA9820206D670030420D /* TanTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TanTabBarVC.h; sourceTree = "<group>"; };
+		8D3CBA9920206D670030420D /* TanTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TanTabBarVC.m; sourceTree = "<group>"; };
+		8D3CBA9B20206DA80030420D /* TanBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TanBaseVC.h; sourceTree = "<group>"; };
+		8D3CBA9C20206DA80030420D /* TanBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TanBaseVC.m; sourceTree = "<group>"; };
+		8D3CBA9F202070640030420D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D3CBAA0202070640030420D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D3CBAA2202070640030420D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D3CBAA4202070640030420D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D3CBAA5202070640030420D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3CBAA6202070640030420D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D3CBAA7202070640030420D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8D3CBAB220207B000030420D /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		8D3CBAB320207B000030420D /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D3CBA6E202022A20030420D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D3CBA68202022A20030420D = {
+			isa = PBXGroup;
+			children = (
+				8D3CBA73202022A20030420D /* Tan_PushAndPresent */,
+				8D3CBA72202022A20030420D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D3CBA72202022A20030420D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D3CBA71202022A20030420D /* Tan_PushAndPresent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D3CBA73202022A20030420D /* Tan_PushAndPresent */ = {
+			isa = PBXGroup;
+			children = (
+				8D3CBA9E202070640030420D /* Other */,
+				8D3CBA9720206C2F0030420D /* Base */,
+				8D3CBA8C202062320030420D /* Main */,
+				8D3CBA7D202022A20030420D /* Assets.xcassets */,
+			);
+			path = Tan_PushAndPresent;
+			sourceTree = "<group>";
+		};
+		8D3CBA8C202062320030420D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8D3CBA8D202062320030420D /* View */,
+				8D3CBAB220207B000030420D /* HomeVC.h */,
+				8D3CBAB320207B000030420D /* HomeVC.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8D3CBA8D202062320030420D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D3CBA9720206C2F0030420D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8D3CBA9820206D670030420D /* TanTabBarVC.h */,
+				8D3CBA9920206D670030420D /* TanTabBarVC.m */,
+				8D3CBA9B20206DA80030420D /* TanBaseVC.h */,
+				8D3CBA9C20206DA80030420D /* TanBaseVC.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8D3CBA9E202070640030420D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8D3CBA9F202070640030420D /* AppDelegate.h */,
+				8D3CBAA0202070640030420D /* AppDelegate.m */,
+				8D3CBAA1202070640030420D /* LaunchScreen.storyboard */,
+				8D3CBAA3202070640030420D /* Main.storyboard */,
+				8D3CBAA5202070640030420D /* Info.plist */,
+				8D3CBAA6202070640030420D /* main.m */,
+				8D3CBAA7202070640030420D /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D3CBA70202022A20030420D /* Tan_PushAndPresent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3CBA87202022A30030420D /* Build configuration list for PBXNativeTarget "Tan_PushAndPresent" */;
+			buildPhases = (
+				8D3CBA6D202022A20030420D /* Sources */,
+				8D3CBA6E202022A20030420D /* Frameworks */,
+				8D3CBA6F202022A20030420D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tan_PushAndPresent;
+			productName = Tan_PushAndPresent;
+			productReference = 8D3CBA71202022A20030420D /* Tan_PushAndPresent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D3CBA69202022A20030420D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = 604WorkingRoom;
+				TargetAttributes = {
+					8D3CBA70202022A20030420D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 8D3CBA6C202022A20030420D /* Build configuration list for PBXProject "Tan_PushAndPresent" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D3CBA68202022A20030420D;
+			productRefGroup = 8D3CBA72202022A20030420D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D3CBA70202022A20030420D /* Tan_PushAndPresent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D3CBA6F202022A20030420D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3CBAAB202070640030420D /* Info.plist in Resources */,
+				8D3CBAAA202070640030420D /* Main.storyboard in Resources */,
+				8D3CBA7E202022A20030420D /* Assets.xcassets in Resources */,
+				8D3CBAA9202070640030420D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D3CBA6D202022A20030420D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3CBA9D20206DA80030420D /* TanBaseVC.m in Sources */,
+				8D3CBA9A20206D670030420D /* TanTabBarVC.m in Sources */,
+				8D3CBAAC202070640030420D /* main.m in Sources */,
+				8D3CBAB420207B000030420D /* HomeVC.m in Sources */,
+				8D3CBAA8202070640030420D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D3CBAA1202070640030420D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D3CBAA2202070640030420D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8D3CBAA3202070640030420D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D3CBAA4202070640030420D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D3CBA85202022A30030420D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D3CBA86202022A30030420D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D3CBA88202022A30030420D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Tan_PushAndPresent/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Tan_PushAndPresent/Other/Info.plist";
+				INFOPLIST_PREFIX_HEADER = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.604.Tan-PushAndPresent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D3CBA89202022A30030420D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Tan_PushAndPresent/Other/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Tan_PushAndPresent/Other/Info.plist";
+				INFOPLIST_PREFIX_HEADER = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.604.Tan-PushAndPresent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D3CBA6C202022A20030420D /* Build configuration list for PBXProject "Tan_PushAndPresent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3CBA85202022A30030420D /* Debug */,
+				8D3CBA86202022A30030420D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3CBA87202022A30030420D /* Build configuration list for PBXNativeTarget "Tan_PushAndPresent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3CBA88202022A30030420D /* Debug */,
+				8D3CBA89202022A30030420D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D3CBA69202022A20030420D /* Project object */;
+}
