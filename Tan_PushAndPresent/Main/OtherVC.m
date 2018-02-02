@@ -1,30 +1,22 @@
 //
-//  TanTabBarVC.m
+//  OtherVC.m
 //  Tan_PushAndPresent
 //
-//  Created by M C on 2018/1/30.
+//  Created by M C on 2018/2/1.
 //  Copyright © 2018年 604WorkingRoom. All rights reserved.
 //
 
-#import "TanTabBarVC.h"
-#import "HomeVC.h"
 #import "OtherVC.h"
 
-@interface TanTabBarVC ()
+@interface OtherVC ()
 
 @end
 
-@implementation TanTabBarVC
+@implementation OtherVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    HomeVC *vc = [HomeVC new];
-    [self addChildViewController:vc];
-    
-    OtherVC *vc2 = [OtherVC new];
-    [self addChildViewController:vc2];
 }
 
 - (void)didReceiveMemoryWarning {
