@@ -19,6 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     TanTabBarVC *vc = [TanTabBarVC new];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
