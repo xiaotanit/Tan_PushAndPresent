@@ -38,4 +38,6 @@
 #define kTabBar_Height          (isiPhoneX? 83:49)
 #define kTopNavHeight           (isiPhoneX? 88:64)
 
+#define WEAK_SELF typeof(self) __weak weakSelf = self;
+
 #endif /* PrefixHeader_pch */

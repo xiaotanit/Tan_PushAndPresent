@@ -17,6 +17,7 @@
 		8D3CBAAC202070640030420D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CBAA6202070640030420D /* main.m */; };
 		8D3CBAB420207B000030420D /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3CBAB320207B000030420D /* HomeVC.m */; };
 		8D4C8DAA2023115000EBEB2E /* OtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C8DA92023115000EBEB2E /* OtherVC.m */; };
+		8DD163402044F64300B90C3F /* TanPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD1633F2044F64300B90C3F /* TanPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		8D3CBAB320207B000030420D /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		8D4C8DA82023115000EBEB2E /* OtherVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherVC.h; sourceTree = "<group>"; };
 		8D4C8DA92023115000EBEB2E /* OtherVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherVC.m; sourceTree = "<group>"; };
+		8DD1633E2044F64300B90C3F /* TanPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TanPickerView.h; sourceTree = "<group>"; };
+		8DD1633F2044F64300B90C3F /* TanPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TanPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		8D3CBA8D202062320030420D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8DD1633E2044F64300B90C3F /* TanPickerView.h */,
+				8DD1633F2044F64300B90C3F /* TanPickerView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD163402044F64300B90C3F /* TanPickerView.m in Sources */,
 				8D3CBA9D20206DA80030420D /* TanBaseVC.m in Sources */,
 				8D3CBA9A20206D670030420D /* TanTabBarVC.m in Sources */,
 				8D3CBAAC202070640030420D /* main.m in Sources */,
